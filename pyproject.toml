@@ -1,0 +1,19 @@
+[project]
+name = "nasa-terminal-dashboard"
+version = "1.0.0"
+description = "A text-based NASA terminal dashboard built in Python to monitor real-time ISS telemetry and near-Earth asteroid radar arrays."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "GoogleHub67"}
+]
+dependencies = [
+    # Add your dependencies here (matching your requirements.txt), for example:
+    # "requests>=2.31.0",
+    # "blessed>=1.20.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
